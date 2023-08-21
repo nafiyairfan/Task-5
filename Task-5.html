@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box model</title>
+  <style>
+    *{
+      background-color: powderblues;
+      margin: 0px;
+      padding: 0px;
+      width: fit-content;
+      height: fit-content;
+    }
+    .container{
+      margin:10px;
+      border: 5px solid rgb(139, 94, 34);
+    }
+    .multibox{
+      margin: 40px;
+      width: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      flex-flow: wrap;
+    }
+
+    .box1{
+      padding: 10px;
+      text-align: center;
+      border: 5px solid rgb(0, 255, 170);
+      width: 20%;
+      height: 300px;
+      background: yellowgreen;
+      margin: 20px;
+      box-sizing: border-box;
+      font-size: 50px;
+    }
+    .box2{
+      padding: 10px;
+      text-align: center;
+      border: 5px solid yellowgreen;
+      width: 20%;
+      height: 300px;
+      background: rgb(16, 237, 163);  
+      margin: 20px;
+      box-sizing: border-box;
+      font-size: 50px;
+    }
+    .box3{
+      padding: 10px;
+      text-align: center;
+      border: 5px solid rgba(58, 51, 51, 0.637);
+      width: 20%;
+      height: 300px;
+      background: #31ea5f;
+      margin: 20px;
+      box-sizing: border-box;
+      font-size: 50px;
+    }
+    .box4{
+      padding: 10px;
+      text-align: center;
+      border: 5px solid rgb(49, 234, 104);
+      width: 20%;
+      height: 300px;
+      background: rgb(77, 69, 65);
+      margin: 20px;
+      box-sizing: border-box;
+      font-size: 50px;
+    }
+    .main{
+      border: 5px solid grey;
+      text-align: justify;
+      padding: 20px;
+      width: auto;
+      height: auto;
+      background: rgba(92, 150, 138, 0.932);
+      margin: 50px;
+      box-sizing: border-box;
+      font-size: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div class="main">Hi I am Nafiya Irfan. I’m a Web Developer & Designer
+    The break from traditional art history and theory _ as well as from other major streams of semiotic analysis _leaves open a wide variety of possiblities for pictorial semiotics. some influences have been drawn from phenomenological analy_ sis, cognitive psychology, structuralist, and cognitivisit linguistics, and visual anthro!</div>
+    <div class="multibox">
+    <div class="box1">Nafiya Irfan</div>
+    <div class="box2">Nafiya Irfan</div>
+    <div class="box3">Nafiya Irfan</div>
+    <div class="box4">Nafiya Irfan</div>
+  </div>
+</div>
+</body>
+</html>
